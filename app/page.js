@@ -6,6 +6,8 @@ import { signOut, useSession } from "next-auth/react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
+import SelectRating from '@/components/Home/SelectRating';
+import GoogleMapsView from "@/components/Home/GoogleMapView";
 
 export default function Home() {
   const { data: session, isFetching } = useSession();
@@ -32,10 +34,12 @@ export default function Home() {
       <div className=" p-5 ml-8">
         <CategoryList />
         <RangeSelect />
+        <SelectRating />
+        
 
       </div>
       <div className=" col-span-3">
-        second
+        <GoogleMapsView />
 
       </div>
 

@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🍽️ Restaurant Finder App
 
-## Getting Started
+Welcome to the Restaurant Finder App! This application helps users discover nearby restaurants within the vicinity of the culture they're interested in. Powered by Google Maps, Google Authentication, and Google Places API, it provides a seamless experience for users to explore culinary delights around cultural hotspots.
 
-First, run the development server:
+## Features
 
-```bash
+- **Search Nearby Restaurants**: Quickly find restaurants in the area of your interest.
+- **Filter by Culture**: Discover restaurants around cultural landmarks or areas.
+- **Google Maps Integration**: View restaurant locations on a map for easy navigation.
+- **Google Authentication**: Securely log in using Google accounts.
+- **Google Places API**: Access rich restaurant data including reviews, ratings, and more.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/restaurant-finder.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd restaurant-finder
+Install dependencies:
+
+bash
+Copy code
+npm install
+Set up Google APIs:
+
+Obtain API keys for Google Maps, Google Authentication, and Google Places.
+Configure API keys in the project environment variables.
+Start the application:
+
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Access the application in your browser at http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Usage
+Log in using your Google account.
+Choose a cultural area or landmark you're interested in.
+Explore nearby restaurants in that area.
+Click on a restaurant marker on the map to view details.
+Enjoy your dining experience!
+Technologies Used
+Prisma
+Tailwind CSS
+React.js
+Next.js
+Google Maps API
+Google Authentication
+Google Places API
+Credits
+This project was developed by [Your Name].
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+License
+This project is licensed under the MIT License.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+javascript
+Copy code
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Ensure to replace `[Your Name]`, `[your-username]`, and `[LICENSE]` with
